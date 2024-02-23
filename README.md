@@ -35,4 +35,6 @@ Styles ensure a visually appealing layout, with a responsive design that adapts 
 >2. Click on a thumbnail to view the larger image.
 >3. Use the transition toggle button to switch between fade and slide effects.
 >4. Clear all images with the provided button.
+>   ## Access Here:
+>   https://d-romero-dev.github.io/Interactive-Image-Gallery-jQuery/
 
