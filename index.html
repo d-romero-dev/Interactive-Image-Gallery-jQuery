@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Image Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="gallery-container">
+      <!-- Thumbnail images with unique identifiers -->
+      <div id="image-container">
+        <ul>
+          <h3>Chosee your image and see the magic!</h3>
+          <li>
+            <img
+              src="/images/all-dogs.jpg"
+              alt="Thumbnail 1"
+              class="thumbnail"
+              id="thumb1"
+              width="500px"
+            />
+          </li>
+          <li>
+            <img
+              src="/images/brown-dog.jpg"
+              alt="Thumbnail 2"
+              class="thumbnail"
+              id="thumb2"
+              width="500px"
+            />
+          </li>
+          <li>
+            <img
+              src="/images/husky-dog.jpg"
+              alt="Thumbnail 3"
+              class="thumbnail"
+              id="thumb3"
+              width="500px"
+            />
+          </li>
+        </ul>
+      </div>
+
+      <!--Title for smaller screens only-->
+      <h4 id="title-for-smaller-screens">
+        Chosee your image and see the magic!
+      </h4>
+
+      <button id="transition-toggle">
+        Toggle Transition: Between fade or slide effect !
+      </button>
+      <button id="clear-images-btn">Clear All Images</button>
+
+      <!-- Larger display image -->
+      <img src="" alt="Display Image" id="display-image" />
+    </div>
+
+    <footer>
+      <div id="footer-container">
+        <div id="footer-content">
+          <p>
+            <small
+              >Made with ♥ by<br /><br />
+              <a href="https://github.com/d-romero-dev">d-romero.dev</a></small
+            >
+          </p>
+          <p>
+            <small>2024 All rights reserved ©</small>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
